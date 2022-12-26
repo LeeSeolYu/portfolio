@@ -1,46 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seolyu's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software engineer Seolyu"
+    />
+    <meta name="author" content="Seolyu" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/3aeb1bf02f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seolyu's Portfolio</title>
-  <meta name="description" content="Portfolio for world-renowned software engineer Seolyu" />
-  <meta name="author" content="Seolyu" />
-  <link rel="icon" type="image/png" href="imgs/favicon.png" />
-  <script src="https://kit.fontawesome.com/3aeb1bf02f.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="main.js" defer></script>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <img
+          style="width: 30px; margin-right: 5px"
+          src="imgs/favicon.png"
+          alt=""
+        />
+        <a href="#">Seolyu</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
+    </nav>
 
-<body>
-  <!-- Navbar -->
-  <nav id="navbar">
-    <div class="navbar__logo">
-      <img style="width: 30px; margin-right: 5px" src="imgs/favicon.png" alt="" />
-      <a href="#">Seolyu</a>
+    <!-- Home -->
+    <div id="home">
+      <img
+        src="imgs/profile.jpg"
+        alt="Seolyu's profile photo"
+        class="home__avatar"
+      />
+      <h1 class="home__title">
+        Hello, <br />I'm Seolyu. I was born to code. 🐾
+      </h1>
+      <h2 class="home__description">Programmer & Designer</h2>
+      <button class="home__contact">Contact Me</button>
     </div>
-    <ul class="navbar__menu">
-      <li class="navbar__menu__item">Home</li>
-      <li class="navbar__menu__item">About</li>
-      <li class="navbar__menu__item">Skills</li>
-      <li class="navbar__menu__item">My work</li>
-      <li class="navbar__menu__item">Testimonial</li>
-      <li class="navbar__menu__item">Contact</li>
-    </ul>
-  </nav>
-  <!-- About -->
-  <section id="about"></section>
-  <!-- Skills -->
-  <section id="skills"></section>
-  <!-- Work -->
-  <section id="work"></section>
-  <!-- Testimonials -->
-  <section id="testimonials"></section>
-  <!-- Contact -->
-  <section id="contact"></section>
-</body>
 
+    <!-- About -->
+    <section id="about"></section>
+    <!-- Skills -->
+    <section id="skills"></section>
+    <!-- Work -->
+    <section id="work"></section>
+    <!-- Testimonials -->
+    <section id="testimonials"></section>
+    <!-- Contact -->
+    <section id="contact"></section>
+  </body>
 </html>
